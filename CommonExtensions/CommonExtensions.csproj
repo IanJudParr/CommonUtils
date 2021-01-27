@@ -2,10 +2,28 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Ian Parr</Authors>
+    <Company>Ian Parr Limited</Company>
+    <PackageId>IanParrLimited.Util.CommonUtils</PackageId>
+    <Description>A suite of utilities that I find myself using in most projects.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/IanJudParr/CommonUtils</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/IanJudParr/CommonUtils</RepositoryUrl>
+    <PackageTags>StringExtensions, StringExtension,TryDeserialize, Deserialize</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>arrow_reload_refresh_sync_icon_176208.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\ian_fa\Downloads\arrow_reload_refresh_sync_icon_176208.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
